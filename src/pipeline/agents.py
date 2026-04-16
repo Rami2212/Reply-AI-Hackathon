@@ -75,3 +75,38 @@ class IngestionAgent:
 
         # Log basic info for Langfuse observability [cite: 105]
         logger.info(f"Ingestion validated: {tx_count} records ready for analysis.")
+
+
+
+
+class ContextAgent:
+    """
+    Context Agent: The behavioral brain.
+    Builds timelines and identifies temporal/geographic shifts[cite: 24, 25].
+    """
+    @observe_step(name="ContextAgent.enrich")
+    def enrich(self, context: Dict[str, Any]) -> Dict[str, Any]:
+        tx_df = context['transactions']
+        meta = context['metadata']
+        
+        logger.info("Context Agent: Enriching behavioral data...")
+
+        # 1. Temporal Analysis: Spotting 'Late-night activity' 
+        tx_df['hour'] = tx_df['Timestamp'].dt.hour
+        tx_df['is_night_tx'] = tx_df['hour'].apply(lambda x: 1 if x < 6 or x > 22 else 0)
+
+        # 2. User Context: Merging demographics for 'MirrorPay' citizens [cite: 17]
+        user_df = pd.DataFrame(meta['user_registry'])
+        if not user_df.empty:
+            # Joins based on Sender ID [cite: 56, 81]
+            tx_df = tx_df.merge(user_df, left_on='Sender ID', right_on='id', how='left')
+
+        # 3. Geo-Spatial Preparation: Mapping transaction locations [cite: 64, 76]
+        # This allows the Decision Agent to check for 'geographic shifts' [cite: 25]
+        
+        return {
+            "session_id": context['session_id'],
+            "enriched_transactions": tx_df,
+            "raw_comms": meta['comms'] # Pass to Decision Agent for LLM review
+        }
+
