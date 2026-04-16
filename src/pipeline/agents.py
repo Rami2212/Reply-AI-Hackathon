@@ -294,3 +294,78 @@ class ContextAgent:
             "raw_comms": meta['comms'] # Pass to Decision Agent for LLM review
         }
 
+
+
+class OrchestratorAgent:
+    """
+    Orchestrator Agent : The strategic conductor.
+    Manages the end-to-end flow, coordinates between agents, and 
+    produces the final ASCII report[cite: 36, 43].
+    """
+    def __init__(self, dataset_path: str, output_path: str = "output.txt"):
+        self.dataset_path = dataset_path
+        self.output_path = output_path
+        self.obs = ObservabilityLayer()
+        self.decision_agent = DecisionAgent()
+        self.context_agent = ContextAgent()
+
+    @observe_step(name="Orchestrator.run_pipeline")
+    def run(self):
+        # 1. Start Observability & Get Session ID [cite: 105-108]
+        session_id = self.obs.start(run_name="reply_mirror_full_pipeline")
+        logger.info(f"Orchestrator started session: {session_id}")
+
+        # 2. Ingestion [cite: 52-54]
+        ingestor = IngestionAgent(self.dataset_path, session_id)
+        raw_context = ingestor.process()
+
+        # 3. Contextual Enrichment [cite: 31-32]
+        enriched_data = self.context_agent.enrich(raw_context)
+        df = enriched_data['enriched_transactions']
+        
+        fraudulent_ids = []
+
+        # 4. Decision Loop [cite: 37, 44]
+        for _, row in df.iterrows():
+            # Calculate a base risk score based on context features
+            # Example: Night transactions or large amounts increase risk [cite: 24, 63]
+            base_score = 0.2 # Baseline
+            if row.get('is_night_tx') == 1: base_score += 0.3
+            if row.get('Amount', 0) > 1000: base_score += 0.2 
+            
+            # Map row to DecisionInput
+            d_input = DecisionInput(
+                transaction_id=row['Transaction ID'],
+                sender_id=row['Sender ID'],
+                recipient_id=row['Recipient ID'],
+                amount=row['Amount'],
+                txn_type=row.get('Transaction Type', 'unknown'),
+                payment_method=row.get('Payment Method', 'unknown'),
+                base_risk_score=base_score,
+                context={
+                    "is_night": bool(row.get('is_night_tx')),
+                    "hour": int(row.get('hour', 0))
+                }
+            )
+
+            # Get final decision from DecisionAgent (with optional LLM) [cite: 10, 100]
+            result = self.decision_agent.decide(d_input)
+            
+            # Log to Langfuse [cite: 105-108]
+            self.obs.log_decision(d_input, result)
+
+            if result.predicted_fraud == 1:
+                fraudulent_ids.append(result.transaction_id)
+
+        # 5. Output Generation [cite: 87-90]
+        self._write_output(fraudulent_ids)
+        
+        # 6. Finalize [cite: 108]
+        self.obs.flush()
+        logger.info(f"Pipeline complete. Detected {len(fraudulent_ids)} suspicious transactions.")
+
+    def _write_output(self, fraud_ids: list[str]):
+        """Writes the ASCII output file required by rules ."""
+        with open(self.output_path, "w") as f:
+            for fid in fraud_ids:
+                f.write(f"{fid}\n")
