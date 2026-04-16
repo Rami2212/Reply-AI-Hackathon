@@ -1,4 +1,4 @@
-from _future_ import annotations
+from __future__ import annotations
 
 from dataclasses import dataclass
 from typing import Any, Callable, Optional
@@ -8,7 +8,7 @@ import logging
 
 from .config import LangfuseConfig
 
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 
 
 def _mask_secret(value: Optional[str]) -> str:
