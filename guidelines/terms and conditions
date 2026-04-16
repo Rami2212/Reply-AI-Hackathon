@@ -1,0 +1,439 @@
+Page 1 of 15
+“AI AGENT CHALLENGE – EXTERNAL EDITION”
+TERMS & CONDITIONS
+The “AI AGENT CHALLENGE – EXTERNAL EDITION” (the “Challenge”) is organized by Reply S.p.A., with
+registered offices in Torino, Corso Francia, 110 - Tax ID: 97579210010 and VAT number: 08013390011
+(“Reply”) under these Terms and Conditions that include the Waiver Attachment (the “T&Cs”).
+For these T&Cs, the definitions retain their value in both singular and plural, in both lowercase and capital
+letters.
+The Challenge takes place through the site accessible at the URL challenges.reply.com (the “Platform”).
+The Platform is managed by Reply.
+The Challenge is open to subjects aged 16 years or over on April 16, 2026, registered to the Platform and
+external to the Reply Group organization (the “Registered Users”). The registration identifies the Registered
+User and allows to access and use the features offered by the Platform.
+The Challenge enrollment, as set in Article 2, requires the Registered Users to participate in team (the
+“Team”). A Team must by composed by minimum two, and maximum four Registered Users.
+Whereas that:
+• the Challenge is based on a fantasy plot based on the idea that, in the futuristic digital metropolis Reply
+Mirror, the financial institutions “MirrorPay” are synonymous of reliability and speed, where cloud data
+platforms are capable of processing billions of transactions for millions of customers. In this highly
+interconnected world, most transactions are monitored, data is widely accessible and privacy is
+increasingly limited. The members of the Team are key managers of economic activity, guide financial
+flows and support trust in digital systems, as a member of the organization “The Eye”.
+• In 2087, Reply Mirror thrives on transparency and almost every piece of personal data is publicly
+accessible. MirrorPay not only manage the flow of economic transactions, but also hold vast troves of
+demographic and various data about their citizens. Among this growing complexity, The Eye mission is
+detecting and neutralizing financial fraud, preserving the integrity of the system and protecting honest
+citizens, from the “Mirror Hackers”, malicious actors who are smart, adaptive and relentlessly strategic.
+Page 2 of 15
+• Mirror Hackers never follow a fixed pattern, constantly reshaping their pattern to outsmart detection
+systems. Their evolving tactics include:
+o targeting new merchants and transaction categories;
+o shifting temporal habits (e.g. moving from daytime to late-night activity);
+o operating across changing geographic regions and jurisdictions;
+o varying transaction amounts and frequency;
+o creating new, deceptive behavioral sequences.
+Given the above:
+• the Challenge goal is to reward, as set in Article 5, the best ideas by allowing Registered Users, members
+of a Team, to demonstrate their software programming skills, designing a multi-agent system capable to
+learn, adapt and generalize as the landscape changes.
+• The Challenge timing and technical flow, together with the scoring rules, are fully described in Article 3.
+The e-mail address to contact Reply relating to the Challenge is challenges@reply.com
+Publishing these T&Cs on the Platform is valid as it is a durable medium.
+Article 1 - Exclusions
+Are expressly excluded from participating in this Challenge:
+• all registered users to the Platform who are members of the Reply Group organization; the Reply
+Group organization includes all employees (with any qualifications or level, including executives) and
+managers of Reply and any company connected to it and/or controlled by it;
+• the Registered Users to the Platform who are not at least 16 years old on April 16, 2026.
+Article 2 - Enrolment
+The Team's enrollment will take place from March 18, 2026, to April 15, 2026 (23:59:59 CEST).
+Enrolment after 23:59:59 (CEST) on April 15, 2026, won’t be accepted, except if there’s an extension, which
+would be announced via the Platform.
+To join the Challenge, a Registered User, through the functionalities offered by the Platform, must try to set
+up a new Team (made of 2 – maximum 4 members), choosing the name. In this case, other Registered
+Users can be invited to the Team by the first Registered User that set up the Team. If there are four
+Registered Users in a Team, no one else can join the Team.
+Page 3 of 15
+When enrollment time ends, if a Registered User is still the only member of a Team, Reply automatically
+pair him/her with another solo participant. This way, they both form a two-member Team and be able to
+participate in the Challenge.
+It is expressly forbidden for a Registered User to be part of more than one Team.
+During enrolment, Registered Users – using the specific functionality provided by the Platform – must accept
+the T&Cs, which include the Attached Waiver.
+If a Registered User is a university student or an alumnus/alumna (former student) and wants to make valis
+his/her participation in the Challenge also for the so called “University Students’ League” as set in Article 6,
+during enrolment it is necessary:
+1) to provide the name of the university
+2) to declare to be a student or alumnus/alumna at the indicated university.
+If a Registered User is a high school student and wants to make valis his/her participation in the Challenge
+also for the so called “High School Students’ League” as set in Article 7, during enrolment it is necessary:
+1) to provide the name of the high school
+2) to declare to be a student at the indicated high school.
+Once a Team has been established correctly, the Challenge enrolment is automatically completed.
+Once the enrollment term has elapsed, the Platform will start automatic aggregation (as described above),
+allowing the Registered aggregated Teams (with two Registered Users) to join the Challenge.
+During the enrollment period, the Registered Users will be able to access the Langfuse usage tutorials that
+Reply will provide to all participants.
+Registered Users must be aware that, during the Challenge:
+• all LLM interactions (as set in Art. 3) shall be monitored via Langfuse
+• if Langfuse format will not be used by the Team, the validation function of solutions submitted will
+not be able to work properly
+• a Langfuse template will be provided at Challenge commencement.
+Page 4 of 15
+Article 3 – Challenge technical flow, timing and scoring rules
+The Challenge will start, on the Platform, from 15:30 (CEST) on April 16, 2026 and will close, on the same
+day, by 21:30 (CEST)
+At Challenge commencement, each team will receive:
+(a) access to download the problem statement
+(b) access to all training and final evaluation levels (see below)
+(c) Two API keys with allocated credits for accessing specified LLMs during the competition.
+Specifically, each Team shall receive an initial credit amount of 40 US$ allocation for use tokens with
+the first three (3) datasets. Upon successful submission of solutions to the corresponding final
+evaluation datasets, the Team will receive an extra API key with a credit of 120 US$ to address the
+increased complexity and computational requirements of the remaining two (2) datasets, which are
+designed to be more resource-intensive. Credit utilization shall be at each Team's strategic discretion
+within the established limitations. Reply will check how the credits will be used and, if a Team will
+use credits for purposes different from the Challenge, such Team will be automatically eliminated
+from the Challenge.
+(d) Langfuse template that will be necessary to write the problem statement solution.
+(e) A list of the available LLMs during the challenge.
+The Challenge consists of five (5) training levels and five (5) final evaluation levels. Teams may submit
+unlimited solutions for training levels and receive scores for the corresponding datasets. These scores serve
+as estimates and will not be counted toward the final ranking. For final evaluation levels, teams are
+restricted to one (1) submission per level, which must include: (a) the solution output, and (b) a compressed
+(.zip) file containing the complete Agent system code.
+Agent system code submission is mandatory only for final evaluation levels and not for training levels.
+At each level, the Team receives a data set representing the economic transactions between citizens of
+Reply Mirror (the “Input”).
+In addition to this, the Input includes additional data sets (containing varying levels of information about
+citizens, their communications and their habits).
+Throughout all levels, the Team is tasked with designing a system of cooperative intelligent agents capable
+of identifying anomalous activities in environments where fraudulent strategies evolve over time. Using the
+available data, the Team must determine for every transaction in the dataset whether it is legitimate or
+fraudulent (the “Output”).
+Page 5 of 15
+All LLM interactions shall be monitored via Langfuse to evaluate both predictive accuracy and overall agentic
+solution quality. This tracking system provides full transparency of prompt usage and monitors operational
+costs, execution latency, model selection, and API call volume. Langfuse usage tutorials will be provided to
+all participants during the Registration Period.
+The agentic system must be capable of:
+• detecting fraudulent behavior that evolves over time and blends seam-lessly with legitimate transactions;
+• anticipating new attack patterns by leveraging the memory of past inter-actions;
+• responding in real time to sudden changes without degrading performance;
+• keeping the false positive rate low, avoiding the unnecessary blocking of legitimate activity.
+The final score is calculated by combining accuracy, economic impact assessment and agent
+efficiency and optimization.
+The Input consists of a series of data set with increasing complexity. The Team have access to multiple
+types of data set (multi-modal) available for download in .zip format. The first three input are unlocked at the
+beginning of the Challenge. Input 4 and 5 will be unlocked only after the Team will submit the final evaluation
+solution for the first three input.
+The Output must be an ASCII text file. Each line should be separated by newline character and refers to a
+suspected fraudulent Transaction ID.
+The format of each line is:
+t
+where t represents the suspected fraudulent Transaction ID among the T Trans-action ID received in input.
+and constraint is T > 0.
+After 21:30 (CEST) on March 12, 2026, the Platform will no longer accept any Output submission.
+The scoring system evaluates AI multi-agent systems based on multiple weighted criteria, including but not
+limited to:
+• Detection Accuracy: The ability to correctly distinguish between fraudulent and non-fraudulent
+Page 6 of 15
+transactions
+• Economic Impact: The financial consequences of system errors, with focus on minimizing high-cost
+mistakes
+• Efficiency and Optimization: System performance in terms of speed, cost-effectiveness, and
+architectural appropriateness
+The specific weights and detailed scoring methodology will be communicated, at least ten days
+before the Challenge, through the Platform, inside the section “How it works”:
+https://challenges.reply.com/challenges/ai-agent/how-it-works/
+Performance will be evaluated relative to a benchmark solution, with potential bonus points for systems that
+exceed benchmark performance.
+Score visualization shall be accessible to each Team through the Platform as follows:
+Individual Challenge Page: Each Team shall have access to comprehensive scoring information including:
+(i) scores obtained from training levels, (ii) scores from submitted final evaluation levels, and (iii) the
+cumulative sum of training and final scores. Important Note: Should a Team fail to submit a solution for any
+final evaluation level prior to Challenge completion, the corresponding training score for that specific level
+shall be nullified and excluded from the total final score calculation.
+Example:
+Public Leaderboard Page:
+Each team can view the complete leaderboard showing:
+• All teams' total points (from evaluation submissions and training scores)
+• Estimated ranking positions
+Page 7 of 15
+The leaderboard also displays each team's submission status:
+• Which datasets have been submitted as final evaluation
+• Which datasets are still in training phase
+Note: Other teams' individual dataset scores are not visible — only their total points and submission status.
+Example:
+The result will be considered temporary since, at the end of the Challenge, Reply will continue the inspection
+activity, reviewing/validating the scoring submission from top-ranked Teams on the leaderboard and
+decreasing the scoring if obtained by submissions not original or processed in violation of the provisions of
+these T&Cs.
+The validated leaderboard will be available on the Platform within 10 working days from the end of the
+Challenge and will be made, in descending order, based on the total score obtained respectively by the
+Teams.
+In case of a tie between two or more Teams, the shortest time taken to reach the relative score will be used
+to achieve the best position on the leaderboard.
+The grounds for eliminating a Team from the Challenge will be:
+• evidence showing that, for the processing of one or more Output, one or more Registered Users
+have either requested or commissioned support from third parties, other than members of the Team,
+to obtain the possible solution based on the Input
+• submitting one or more Output files, evidently not valid in this case, containing malware, viruses or
+other codes, files or programs created to interrupt, destroy or limit the operation of third-party
+software, hardware or telecommunications equipment
+• attempted unauthorized access to the Platform, regardless of the outcome, for the purpose of
+damaging it or attempting, by way of example and not exhaustively, to manipulate the scoring
+system.
+Page 8 of 15
+Article 4 - Communication to the 1st, 2nd and 3rd Team on the Leaderboard
+Each Registered User member of the Teams in the 1st, 2nd or 3rd position on the validated Leaderboard, will
+be contacted by email and required to send, within 10 days and via email, a copy of their identity document
+(to verify the current correspondence with the information provided at the time of registration to the Platform)
+and the bank details necessary to transfer the remuneration as set in Article 5.
+If a Registered User:
+a) did not reply to the aforementioned communication within 30 business days, or the response would
+be without a copy of the requested identity document,
+or
+b) responds in good time, but results in a non-conformity between the information present on the identity
+document and that previously provided,
+participation in the Challenge will be considered non-compliant and will be forfeited, for the
+Registered User, the right to the remuneration as set in Article 5.
+If this happens and the other Registered Users members of the Team have correctly fulfilled the request by
+the established deadline, they will retain their right to remuneration as set in Article 5.
+Should any of the circumstances referred to in a) and b) above happen, Reply and/or its assignees also
+reserve any subsequent action for their protection aimed at compensation for any damage, patrimonial and
+non-pecuniary, as the acceptance of “Reply Challenges Platform Terms and Conditions of Service”, the
+Challenge T&Cs and attached waiver will consequently be non-compliant.
+Reply cannot be held in any way responsible if the communication sent isn’t received by one or more
+Registered Users as a result of:
+i. an unreachable or non-existent email address (if disabled after registration)
+ii. configuration, on the client or server side, of the email box that erroneously classifies the
+message sent by Reply as spam.
+In the event of a response by the Registered User within the prescribed deadlines, complete with a copy of
+the identity document and compliant with the data provided during registration to the Platform, Reply will
+make the wire transfer as set in Article 5.
+Article 5 – Remuneration for the 1st, 2nd and 3rd Team on the Leaderboard
+The remuneration for the performance of the Output and the consequent transfer of exclusive intellectual
+Page 9 of 15
+property rights as provided for by the applicable Italian legislation (the “Rights”, including – by way of
+example and not exhaustively – the Law 22 April 1941 no. 633: protection of copyright and other rights
+related to its exercise; the article 2575 and following of the civil code, etc.), in the event of a positive outcome
+of the document verification referred to in Article 4 above, will be:
+• for each Registered User member of the 1st Team on the Leaderboard: 2,500.00€ (two thousand
+and five hundred Euros), net taxes
+• for each Registered User member of the 2nd Team on the Leaderboard: 1,500.00€ (one thousand
+Euros), net taxes
+• for each Registered User member of the 3rd team on the Leaderboard: 1000.00€ (eight hundred
+Euros), net taxes
+Reply will proceed, within the terms established by law, to pay the withholding tax, on the gross amount,
+when applicable; in any case, the Registered User is the only responsible to pay any other taxes in the
+country of residence.
+Article 6 – University Students’ League
+The University Students’ League allows university students or alumni to enter the Challenge also as a
+‘community’ of the same university, to compete for a special reward.
+Such reward, offered by Reply in favor of the university whose students and alumni will result in a 1° position
+on the special University Students League leaderboard, consists in a financial contribution for a project to
+be developed by the university or by a specific department, for an amount not exceeding 2,000.00 (two
+thousand) Euros or a Reply branded football table for the communal areas of the University.
+The university will have to provide formal acceptance of the reward when contacted by Reply.
+Entering the University Students’ League, students and alumni declare that the university opposes their
+participation in no way.
+Considering that, during the Challenge:
+1) points, valid for the final leaderboard, will be awarded as set in Article 3, in favor of the related Team
+2) a Team could include students or alumni belonging to different universities
+for the purposes of the University Students’ League leaderboard only:
+a) the final score obtained by a team will be valid for each component of the Team, as a “single score”
+b) the University Students’ League leaderboard will be based on the sum of such “single scores”
+obtained by related students/alumni of the same university – as declared through enrollment
+Page 10 of 15
+procedure – during the Challenge, as set in Article 3, and will be temporary until the final validation.
+Example “1”:
+Team “XY” components: one student from university “Alfa”; one alumnus from university “Alfa”; one student from
+university “Beta”; one student from university “Gamma”.
+The team obtained 4,000 points.
+For the purposes of the University Students’ League leaderboard:
+Students/Alumni community from university “Alfa”: 8,000 points
+Students/Alumni community from university “Beta”: 4,000 points
+Students/Alumni community from university “Gamma”: 4,000 points
+Example “2”:
+Team “KZ” components: four students/alumni from the same university “Alfa”
+The team obtained 4,000 points.
+For the purposes of the University Students’ League leaderboard:
+Students/Alumni community from university “Alfa”: 16,000 points
+The validated University Students’ League leaderboard will be available on the Platform within 10 days from
+the end of the Challenge, since Reply will continue the inspection activity, reviewing/validating scoring
+submissions and decreasing the score if obtained by submissions not original or processed in violation of
+the provisions of these Challenge T&Cs.
+The Registered User that, as part of the university community in the 1st position on the validated University
+Students’ League leaderboard, will have obtained the best score among the other students/alumni, will be
+informed by email asking him/her to put Reply in contact with a professor at the university he/she belongs.
+If a Registered User does not reply to such communication within 10 business days, Reply will contact
+another Registered User part of the same university community, and so on.
+After receiving the contact details of the professor, Reply will contact him/her to inform about the reward in
+favor of the university, as described above.
+If the professor does not answer within 10 working days or, in case of answer, he/he will inform Reply that
+the university does not agree to receive the reward, Reply will contact a Registered User belonging to the
+university community in the 2nd position on the validated University Students’ League leaderboard, and so
+on.
+Reply cannot be held in any way responsible if the communication sent isn’t received by one or more
+Registered Users as a result of:
+iii. an unreachable or non-existent email address (if disabled after registration)
+iv. configuration, on the client or server side, of the email box that erroneously classifies the
+message sent by Reply as spam.
+If the professor answers within the term, confirming that the university agrees to receive the reward, Reply
+Page 11 of 15
+will provide the reward within 120 days.
+Article 7 – High School Students’ League
+The High School Students’ League allows high school students to enter the Challenge also as a ‘community’
+of the same high school, to compete for a special reward.
+Considering the differences among the educational systems country by country, “high school” is intended
+as any kind of education for students aged from 14 to 18/19 years old, before entering the university (i.e.,
+Licei or Istituti Tecnici, Lycée or Lycée Professionnel, Educación Secundaria Obligatoria and Bachillerato,
+etc.).
+Such reward, offered by Reply in favor of the high school whose students will result in a 1° position on the
+special High School Students League leaderboard, consists in a financial contribution for a project to be
+developed by the high school, for an amount not exceeding 2,000.00 (two thousand) Euros together with an
+“Online Coding Course” designed by Reply trainers (AIvengers) and dedicated to the students who are part
+of such High School Students League.
+The high school will have to provide formal acceptance of the reward when contacted by Reply.
+Entering the High School Students’ League, students declare that the high school opposes their participation
+in no way.
+Considering that, during the Challenge:
+1) points, valid for the final leaderboard, will be awarded as set in Article 3, in favor of the related Team
+2) a Team could include students belonging to different high schools
+for the purposes of the High School Students’ League leaderboard only:
+a) the final score obtained by a team will be valid for each component of the Team, as a “single score”
+b) the High School Students’ League leaderboard will be based on the sum of such “single scores”
+obtained by related students of the same high school – as declared through enrollment procedure –
+during the Challenge, as set in Article 3, and will be temporary until the final validation.
+Example “1”:
+Team “XY” components: one student from high school “Alfa”; two students from high school “Beta”; one student from
+high school “Gamma”.
+The team obtained 4,000 points.
+For the purposes of the High School Students’ League leaderboard:
+Students community from high school “Alfa”: 4,000 points
+Students community from high school “Beta”: 8,000 points
+Page 12 of 15
+Students community from high school “Gamma”: 4,000 points
+Example “2”:
+Team “KZ” components: four students from the same high school “Alfa”
+The team obtained 4,000 points.
+For the purposes of the High School Students’ League leaderboard:
+Students community from high school “Alfa”: 16,000 points
+The validated High School Students’ League leaderboard will be available on the Platform within 10 days
+from the end of the Challenge, since Reply will continue the inspection activity, reviewing/validating scoring
+submissions and decreasing the score if obtained by submissions not original or processed in violation of
+the provisions of these Challenge T&Cs.
+The Registered User that, as part of the high school community in the 1st position on the validated High
+School Students’ League leaderboard, will have obtained the best score among the other students, will be
+informed by email asking him/her to put Reply in contact with a professor at the high school he/she belongs.
+If a Registered User does not reply to such communication within 10 business days, Reply will contact
+another Registered User part of the same high school community, and so on.
+After receiving the contact details of the professor, Reply will contact him/her to inform about the reward in
+favor of the high school, as described above.
+If the professor does not answer within 10 working days or, in case of answer, he/he will inform Reply that
+the high school does not agree to receive the reward, Reply will contact a Registered User belonging to the
+high school community in the 2nd position on the validated High School Students’ League leaderboard, and
+so on.
+Reply cannot be held in any way responsible if the communication sent isn’t received by one or more
+Registered Users as a result of:
+v. an unreachable or non-existent email address (if disabled after registration)
+vi. configuration, on the client or server side, of the email box that erroneously classifies the
+message sent by Reply as spam.
+If the professor answers within the term, confirming that the high school agrees to receive the reward, Reply
+will provide the reward within 120 days.
+Article 8 - Applicable laws and disputes
+The applicable law is that current in Italy, as Reply, the organizer of the Challenge, has its headquarters in
+this territory.
+The Challenge does not constitute a prize competition since:
+Page 13 of 15
+• in accordance with article 6, paragraph 1 – a) of Presidential Decree 430/2001, the so-called 'prize'
+consists in remuneration for the performance of work and relative assignment of the exclusive Rights
+on the respective Output files, in favor of the Team (composed minimum two, and maximum four
+Registered Users), if resulting in 1st, 2nd or 3rd on the validated Leaderboard
+• in accordance with art. 6, paragraph 1 – b), of Presidential Decree 430/2001, the reward in favor of
+a university (as set in T&Cs article 7) and in favor of a high school (as set in T&Cs article 8) is
+destinated to an institution an to be used for a social purpose (education).
+For anything not expressly provided for in these T&Cs, reference is made to the current laws in the Italian
+legal system.
+For any dispute deriving from the Challenge and the related T&Cs, the Court of Torino will have exclusive
+jurisdiction.
+Article 9 – Miscellanea
+The parties (Reply, Reply Group and the Registered Users) will maintain their managerial and operational
+autonomy during the activities carried out respectively in the T&Cs.
+Reply is not responsible for failure to start or end the Challenge for any reason attributable to third parties
+(by way of example, but not limited to: interruption of internet connectivity, attempted intrusion or
+unauthorized access to the Platform or any computer systems connected to it, etc.) or due to force majeure.
+Reply is not responsible for any Registered Users’ hardware or software malfunctions, or interruption of the
+internet connection used by them that prevents them from processing, completing and/or sending a
+Submission.
+Reply has the right to modify and/or supplement these T&Cs until the issue of the Challenge on the Platform,
+provided any changes and/or additions will not create unequal treatment between Teams already enrolled;
+any changes and/or additions will be communicated on the Platform, requesting acceptance by interested
+parties.
+Participation in the Challenge does not constitute, for the Team and Registered Users, authorization or
+license to use the trademarks and registered trademarks of the Reply Group.
+If any provision or provisions of these T&Cs shall be held to be invalid, illegal or unenforceable for any
+reason whatsoever: the validity, legality and enforceability of the remaining provisions shall not in any way
+be affected or impaired thereby and shall remain enforceable to the fullest extent permitted by law.
+Page 14 of 15
+"Waiver" attachment
+The Registered User, as identified by the data released during the registration process on the Platform
+GIVEN THAT:
+A. the Registered User, together with other members of the relative Team, has independently decided
+to join the Challenge that takes place according to the T&Cs, of which the present waiver is an
+integral and substantial attachment
+B. for the purposes of this waiver, the definitions in the T&Cs apply.
+That said, the Registered User with the present waiver will be accepted during the Challenge enrolment
+phase, through the appropriate functionality provided by the Platform.
+A) DECLARES AND GUARANTEES
+1. That the information provided during registration on the Platform is truthful and correct.
+2. That the Registered User and the other Team members will be the only authors and creators of each
+Output that they submit.
+3. The non-existence of rights or claims of third parties relating to any Output (even if not correct) that will
+be sent by the Team.
+4. That every Output (including the complete Agent system code) that will be submit will be unpublished.
+5. To know that every Output (including the complete Agent system code) will be used by the Platform
+for the sole purpose of participation in the Challenge and that, only if the Team is 1st, 2nd or 3rd on the
+Leaderboard the Transfer (as defined below and related conditions expected) will produce its effects.
+6. By virtue of the previous point 5, to have nothing to claim for sending each submission (Output,
+including the complete Agent system code) if the Team he/she belongs to is not among the ones
+remunerated for the Transfer, considering itself already fully satisfied by participation in the Challenge.
+7. To know that any scoring is attributed to the Team in the manner described in these T&Cs; therefore,
+nothing will have to be claimed if the Team itself is not among the ones remunerated for the Transfer.
+8. To know that if several Teams have the same score, the best position on the validated leaderboard will
+be occupied by the Team that has obtained this score in the shortest time compared to other Teams.
+9. To know that, in so far as the object of this waiver is found to be wholly or in part, untruthful and/or
+incorrect, Reply has the right to exclude the Registered User from the Team participating in the
+Challenge.
+10. To know that if the Team, which the Registered User belongs to, is among the ones remunerated for
+the Transfer, only such remuneration as set in Article 5 and nothing else will have to claim against the
+Page 15 of 15
+provision of work and the consequent Transfer of rights.
+11. To know that the subject matter of the T&Cs and this waiver, is governed by Italian law.
+12. To have been duly informed about the characteristics of the Challenge and to have freely decided to
+join the same
+B) AS REASONED ABOVE, THE REGISTERED USER IS COMMITTED TO HOLD HARMLESS AND
+INDEMNIFY, ONLY THE CASE IN WHICH THE TEAM TO WHICH THEY BELONG RESULTS AMONG
+THE ONES REMUNERATED FOR THE TRANSFER,
+the Reply Group, as well as all subjects involved in any way in the organization and/or management of the
+Challenge – from any request, claim, action, burden, cost, and/or prejudice of third parties, in any way
+connected to the Challenge and deriving from the conduct of the Team that would make less or prevent the
+Reply Group and its donors and/or those having the right to carry out the Challenge and exercise, the Rights
+acquired through the transfer.
+C) THE REGISTERED USER DECLARES TO TRANSFER (hereafter the "Transfer"), ONLY THE CASE
+IN WHICH THE TEAM TO WHICH THEY BELONG RESULTS AMONG THE ONES REMUNERATED
+FOR THE TRANSFER,
+as in fact it transfers exclusively and against the remuneration as set in Article 5 of the T&Cs, for the sole
+fact of having decided autonomously to join the Challenge, to Reply which accepts and acquires, for itself
+and/or its assignees, all the exclusive rights on regarding the Leaderboard (1st, 2nd and 3rd position), the
+Output (including the complete Agent system code) that have generated the total score, including those of
+use and economic and commercial exploitation, in any form or manner, in whole or in part, without any
+limitation of time, territory and methods, including disclosure as an ‘open-source document’.
+D) THE REGISTERED USER ALSO DECLARES, ONLY THE CASE IN WHICH THE TEAM TO WHICH
+THEY BELONG RESULTS AMONG THE ONES REMUNERATED FOR THE TRANSFER:
+a) that there is no impediment to release the present declaration for every liberating purpose
+b) to have nothing to claim from Reply and/or its donors and/or assignees, transferees and in general from
+anyone who uses for the purposes envisaged by the Transfer
+to not having in place legal acts that, in any case, may affect the extent and effectiveness of this waiver.

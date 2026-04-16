@@ -1,0 +1,69 @@
+Your Challenge Page
+AI Agent Challenge 2026 - external edition
+Challenge Terms & Conditions
+Questo il testo da mettere in pagina di gara quando lo stato è in STARTED
+
+Welcome to the AI Agent Challenge 2026, below you can access all the material to play the challenge. Here you can:
+
+Download the problem statement for the training datasets below
+Develop and test your solution
+Submit your training solutions as many times as you want to see your score
+Once satisfied with your approach, download the corresponding evaluation dataset
+Run your solution on the evaluation dataset to get your final score
+Remember: You can upload your evaluation dataset solution only once per dataset!
+
+You can access your remaining credits and the Langfuse Dashboard.
+
+Remember that the challenge will end at 21.30 CEST, the leaderboard will be frozen at 21.00 and after the challenge it will be temporary ultil the final evaluation from the Aivengers team.
+
+AIAgentChallenge-ProblemStatement16April.pdf
+Send a submission
+A submission is made of three elements: the Langfuse Session ID (to be inserted in the upload modal field), an output file (.txt file with the fraudulent transactions list as specified in the problem statement), and source code (only for evaluation datasets, as a .zip file containing your complete agentic system).
+Credits Left
+Dataset: 1 - 3
+40,00 $
+40,00 $
+Credits Left
+Dataset: 4 - 5
+Don’t lose sight of your credits!
+Remember that once you finish all your credits, you won't be able to use open router
+For any issue please write to challenges@reply.com
+Training dataset
+Upload here the output files for at least one of the given input below. Each output file must be an UTF-8 plain text file.
+The Truman Show - train.zip
+Click or drag to upload file
+Brave New World - train.zip
+Click or drag to upload file
+Deus Ex - train.zip
+Click or drag to upload file
+Solve the first 3 evaluation datasets to unlock
+Solve the first 3 evaluation datasets to unlock
+Evaluation dataset
+Step 1 – Upload your output file(s) For at least one of the provided input cases, submit the corresponding output as a UTF-8 encoded plain text file.
+
+Step 2 – Upload your source code Once your output file(s) have been submitted, you will be prompted to upload your source code.
+
+You won’t be able to make any more submissions, so make sure that you are happy with what you are submitting.
+The Truman Show - validation.zip
+Click or drag to upload file
+Brave New World - validation.zip
+Click or drag to upload file
+Deus Ex - validation.zip
+Click or drag to upload file
+Solve the first 3 datasets to unlock
+Solve the first 3 datasets to unlock
+Team submissions
+Get ahead in the challenge by submitting multiple solutions as soon as possible. We'll calculate your team score by summing up the maximum score for each correct input file. Aim for the highest optimisation to score big and don't forget, time matters too!
+Your Estimated Final Score
+no upload
+no upload
+no upload
+no upload
+no upload
+600°
+Estimated Final Score
+N/A
+Training Score
+N/A
+Evaluation Score
+N/A
