@@ -56,3 +56,4 @@ def build_langfuse_config() -> LangfuseConfig:
         secret_key=(os.getenv("LANGFUSE_SECRET_KEY") or "").strip(),
         host=(os.getenv("LANGFUSE_HOST") or "https://challenges.reply.com/langfuse").strip(),
     )
+
